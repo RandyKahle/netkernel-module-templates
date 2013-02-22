@@ -1,0 +1,42 @@
+<module version="2.0">
+  <meta>
+    <identity>
+      <uri>MODULE_URI</uri>
+      <version>1.0.0</version>
+    </identity>
+    <info>
+      <name>System / Name</name>
+      <description>Module description</description>
+      <icon>res:/MODULE_CLASSPATH/images/icon.png</icon>
+    </info>
+  </meta>
+
+  <system>
+    <dynamic/>
+  </system>
+
+
+  <rootspace name="System / Name" public="true" uri="MODULE_URI">
+
+
+    <!-- Documentation -->
+
+    <fileset>
+      <regex>res:/etc/system/(Books|Docs).xml</regex>
+    </fileset>
+    <fileset>
+      <regex>res:/MODULE_CLASSPATH/doc/(.*)</regex>
+      <rewrite>res:/resources/doc/$1</rewrite>
+    </fileset>
+
+    <!-- Images -->
+    <fileset>
+      <regex>res:/MODULE_CLASSPATH/images/(.*)</regex>
+      <rewrite>res:/resources/images/$1</rewrite>
+    </fileset>
+
+  </rootspace>
+
+
+
+</module>
