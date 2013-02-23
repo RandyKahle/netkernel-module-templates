@@ -1,0 +1,4 @@
+=Databliss Based Module Title=
+
+This module is based on the template separate-doc in the shared databliss library
+

@@ -1,0 +1,8 @@
+<tests>
+   <test>
+     <id>MODULE_URI</id>
+     <name>Text resource model test</name>
+     <desc>Test for Text resource model</desc>
+     <uri>res:/resources/tests/testlist.xml</uri>
+   </test>
+ </tests>
