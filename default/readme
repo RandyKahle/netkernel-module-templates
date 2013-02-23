@@ -1,0 +1,5 @@
+Template library developed for the NetKernelROC community
+
+The simple template is recommended for first time NetKernel
+developers. It builds a complete simple Groovy based endpoint
+that is wired to the front end fulcrum.
