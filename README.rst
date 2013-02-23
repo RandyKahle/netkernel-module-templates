@@ -34,3 +34,10 @@ Two variables are substituted (we might add more, please let us know)::
 Look at the module.xml file in default/simple to see how these variables
 are used.
 
+README support
+~~~~~~~~~~~~~~
+
+A readme file located at the root directory of a template will be used by
+the listTemplates task to provide information to the user about the nature
+and intent of each template.
+
