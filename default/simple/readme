@@ -1,0 +1,7 @@
+This template creates a simple, complete module the uses a Groovy language
+endpoint to provide the resource http://localhost:8080/hello through
+the front end fulcrum.
+
+Use this template to build a complete working example of a HTTP REST endpoint.
+
+Ideal for beginning NetKernel developers.
