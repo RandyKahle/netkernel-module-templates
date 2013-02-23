@@ -1,0 +1,12 @@
+<testlist>
+  <!--import>res:/org/netkernel/xml/assert/assertLibrary.xml</import-->
+
+  <test name="Test Name">
+    <request>
+      <identifier>active:callMe</identifier>
+    </request>
+    <assert>
+    </assert>
+  </test>
+
+</testlist>

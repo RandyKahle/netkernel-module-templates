@@ -1,0 +1,23 @@
+<docs>
+  <doc>
+    <id>doc:MODULE_URI_WITHOUT_URN:title</id>
+    <title>Book title page</title>
+    <desc>description</desc>
+    <uri>res:/MODULE_CLASSPATH/doc/title.txt</uri>
+    <category/>
+  </doc>
+  <doc>
+    <id>doc:MODULE_URI_WITHOUT_URN:license:mit</id>
+    <title>License</title>
+    <desc>Module license</desc>
+    <uri>res:/MODULE_CLASSPATH/doc/license-mit.txt</uri>
+    <category>module license</category>
+  </doc>
+  <doc>
+    <id>doc:MODULE_URI_WITHOUT_URN:license:commercial</id>
+    <title>Commercial License</title>
+    <desc>Module license</desc>
+    <uri>res:/MODULE_CLASSPATH/doc/license-commercial.txt</uri>
+    <category>module license</category>
+  </doc>
+</docs>

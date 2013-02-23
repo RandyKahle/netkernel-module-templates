@@ -1,0 +1,20 @@
+<books>
+  <book>
+    <id>book:MODULE_URI_WITHOUT_URN</id>
+    <title>Book Title</title>
+    <author>Author One</author>
+    <author>Author Two</author>
+    <publisher>Your Company</publisher>
+    <date/>
+    <modified/>
+    <icon/>
+    <keywords/>
+    <toc>
+      <item id="doc:MODULE_URI_WITHOUT_URN:title">
+      </item>
+      <separator/>
+      <item id="doc:MODULE_URI_WITHOUT_URN:license:mit" title="MIT License"/>
+      <item id="doc:MODULE_URI_WITHOUT_URN:license:commercial" title="Commerical License"/>
+    </toc>
+  </book>
+</books>
