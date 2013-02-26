@@ -1,0 +1,60 @@
+<module version="2.0">
+  <meta>
+    <identity>
+      <uri>MODULE_URI</uri>
+      <version>0.0.1</version>
+    </identity>
+    <info>
+      <name>System / Service</name>
+      <description>Add description</description>
+      <icon>res:/MODULE_CLASSPATH/images/icon.png</icon>
+    </info>
+  </meta>
+
+  <system>
+    <dynamic/>
+  </system>
+
+  <rootspace name="System / Service" uri="MODULE_URI">
+	<fileset>
+		<regex>res:/etc/system/SimpleDynamicImportHook.xml</regex>
+	</fileset>
+	<mapper>
+		<config>
+	    	<endpoint>
+				<id></id>
+				<name></name>
+				<description></description>
+				<grammar>res:
+					<group name="service"></group>
+				</grammar>
+				<request>
+					<identifier>active:xsltc</identifier>
+				    <argument name="operator">res:/resources/xsl/</argument>
+				    <argument name="operand"></argument>
+				</request>
+			</endpoint>
+		</config>
+		<space>
+			<fileset>
+		    	<regex>res:/resources/xsl/.*</regex>
+		    </fileset>
+			<fileset>
+		    	<regex>res:/resources/data/.*</regex>
+		    </fileset>
+			<import>
+				<uri>urn:org:netkernel:xml:core</uri>
+			</import>
+			<!-- uncomment for http support 
+			<import>
+				<uri>urn:org:netkernel:client:http</uri>
+			</import> -->
+		</space>
+	</mapper>
+    <!-- Images -->
+    <fileset>
+      <regex>res:/MODULE_CLASSPATH/images/(.*)</regex>
+      <rewrite>res:/resources/images/$1</rewrite>
+    </fileset>
+  </rootspace>
+</module>
